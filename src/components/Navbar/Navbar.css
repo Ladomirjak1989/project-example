@@ -1,0 +1,18 @@
+.icon-style {
+    width: 50px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    gap: 30px;
+
+}
+.nav-list a {
+color: #000;
+}

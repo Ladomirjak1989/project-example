@@ -1,0 +1,53 @@
+.details-page {
+    display: flex;
+    padding-top: 200px;
+    background: url(../../assets/page.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.page-item {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+
+}
+.page-item img {
+    max-width:400px ;
+    width:100% ;
+}
+
+.btn-style {
+    padding: 10px;
+    background-color: rgb(133, 137, 137);
+    display: inline-block;
+    border-radius: 5px;
+    color: #000;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.page-item-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.message {
+    position: absolute;
+    background-color: #fff;
+    width: 400px;
+    height: 70px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+
+
+}

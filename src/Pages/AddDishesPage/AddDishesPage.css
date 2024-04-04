@@ -1,0 +1,44 @@
+.add-page-name {
+background: url(../../assets/page.jpg) no-repeat;
+background-size: cover;
+min-height: 100vh;
+padding-top: 150px;
+
+}
+.addDishForm {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem 1rem;
+    border-radius: 5%;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+
+.addDishForm label {
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.addAllDishInput, .addAllDishSelect {
+    border-radius: 15px;
+    margin-left: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+
+}
+
+.button-style {
+    background-color: rgb(180, 180, 197);
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+    padding: 10px;
+}

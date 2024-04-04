@@ -1,8 +1,15 @@
 import React from 'react'
+import './NotFoundPage.css'
+
 
 const NotFoundPage = () => {
   return (
-    <div>NotFoundPage</div>
+    <div className='home-wrapper'>
+      <div className='container'>
+
+        <h2 className='subtitle'>Not Found Page</h2>
+      </div>
+    </div>
   )
 }
 
