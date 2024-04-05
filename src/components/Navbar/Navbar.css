@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .nav-list {
     display: flex;
@@ -15,4 +16,23 @@
 }
 .nav-list a {
 color: #000;
+}
+.burger-list {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(221, 211, 211);
+    right: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    top: 65px;
+    height: 100vh;
+    font-size: 40px;
+}
+.nav-item {
+    font-size: 36px;
+    
 }
