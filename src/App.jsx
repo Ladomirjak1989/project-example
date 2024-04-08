@@ -7,6 +7,8 @@ import DishesDetailsPage from './Pages/DishesDetailsPage/DishesDetailsPage'
 import Navbar from "./components/Navbar/Navbar"
 import { Routes, Route } from 'react-router-dom'
 import EditDishesPage from './Pages/EditDishesPage/EditDishesPage'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
 
@@ -21,19 +23,20 @@ function App() {
             <Navbar />
           </div>
         </header>
-        
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/:dishes" element={<AllDishesPage />} />
-            <Route path="/random" element={<RandomDishesPage />} />
-            <Route path="/new" element={<AddDishesPage />} />
-            <Route path="/:dishes/:dishId" element={<DishesDetailsPage />} />
-            <Route path="/update/:dishes/:dishId" element={<EditDishesPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
 
-        </div>
-      
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/:dishes" element={<AllDishesPage />} />
+          <Route path="/random" element={<RandomDishesPage />} />
+          <Route path="/new" element={<AddDishesPage />} />
+          <Route path="/:dishes/:dishId" element={<DishesDetailsPage />} />
+          <Route path="/update/:dishes/:dishId" element={<EditDishesPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+
+        <Footer />
+      </div>
+
     </>
   )
 }

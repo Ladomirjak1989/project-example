@@ -32,8 +32,6 @@ const [isPopUpBurgerMenu, setPopUpBurgerMenu] = useState(false)
     if (size < 767) setBurgerMenu(true)
     if (size >= 768) setBurgerMenu(false)
   },[size])
-
-  console.log(size)
   
   return (
     
