@@ -58,7 +58,7 @@ const [isPopUpBurgerMenu, setPopUpBurgerMenu] = useState(false)
         {isPopUpBurgerMenu && isBurgerMenu && <RxCross2 className='nav-item' onClick={()=> {
           setPopUpBurgerMenu(false)
         }} />}
-        {isPopUpBurgerMenu && isBurgerMenu && <PopUpBurgerMenu links={categoryLink}/>}
+        {isPopUpBurgerMenu && isBurgerMenu && <PopUpBurgerMenu onClose={setPopUpBurgerMenu} links={categoryLink}/>}
       </nav>
 
       

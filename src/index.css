@@ -18,6 +18,7 @@ button {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+
 }
 
 h1 {
@@ -46,4 +47,10 @@ h1 {
   left: 0;
   right: 0;
   z-index: 100;
+}
+
+@media screen and (max-width:480px) {
+  .container {
+    margin: 10px;
+  }
 }

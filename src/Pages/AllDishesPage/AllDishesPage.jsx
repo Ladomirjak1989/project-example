@@ -36,7 +36,6 @@ const AllDishesPage = () => {
               </Link>
             </li>
           )
-
           )}
         </ul>
       </div>
