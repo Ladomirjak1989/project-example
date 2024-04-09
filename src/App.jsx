@@ -10,6 +10,7 @@ import EditDishesPage from './Pages/EditDishesPage/EditDishesPage'
 import Footer from './components/Footer/Footer'
 
 
+
 function App() {
 
   return (

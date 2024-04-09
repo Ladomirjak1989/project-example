@@ -30,16 +30,9 @@ h1 {
 
 }
 
-/* .App {
-  background: url(./assets/main.png) no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  width: 100%; */
-
-/* } */
 .header {
   position: fixed;
-  background-color: bisque;
+  background-color: rgb(244, 216, 182);
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;

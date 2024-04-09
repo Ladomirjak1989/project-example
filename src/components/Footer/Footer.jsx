@@ -7,11 +7,16 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='container'>
+      <div className='footer-container'>
         <p>+31619388895</p>
         <p>midas.restaurante@gmail.com</p>
+        <div>
+        <FaFacebookSquare/>
+      <FaInstagram/>
       </div>
-      <FaFacebookSquare className='face-book-style' />
-      <FaInstagram className='instagram-style' />
+      </div>
+
+      </div>
     </footer>
   )
 }

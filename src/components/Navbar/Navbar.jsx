@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Icon from "../../assets/round-restaurant-icon-vector-2173734.jpg";
+import Icon from "../../assets/icon.jpg";
 import './Navbar.css';
 import { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";

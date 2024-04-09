@@ -1,23 +1,19 @@
 .footer {
-    background-color: rgb(199, 199, 190);
+    background-color: rgb(244, 216, 182);
     padding-top: 20px;
     padding-bottom: 20px;
     
 
-    
 }
+
 .footer p {
     color: #000;
     font-size: 20px;
-    
-    
-    
 }
-.face-book-style {
-    font-size: 30px;
-    
-}
-.instagram-style {
-    font-size: 30px;
-    
+.footer-container {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+
 }
